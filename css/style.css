@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header {
-    background-color: orange;
+    background-color: #ff6900;
     color: white;
     margin-bottom: 30px;
 }
@@ -44,7 +48,11 @@ li {
     display: flex;
     justify-content: end;
     align-items: center;
+}
 
+section {
+    margin-top: 50px;
+    margin-bottom: 40px
 }
 
 .container-main {
