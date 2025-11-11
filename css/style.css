@@ -58,10 +58,24 @@ li {
 .card {
     width: calc(100% / 3 - (40px / 3));
     position: relative;
+    cursor: pointer;
 }
 
 .card img {
     width: 380px;
+}
+
+.transition {
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    display: none;
+}
+
+.transition:hover .bottom {
+    display: block;
 }
 
 .discount {
