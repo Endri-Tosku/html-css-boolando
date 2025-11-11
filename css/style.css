@@ -24,7 +24,7 @@ header {
     align-items: center;
 }
 
-.li-header {
+li {
     padding-right: 10px;
 }
 
@@ -102,3 +102,32 @@ header {
     color: red;
 }
 
+
+footer {
+    background-color: black;
+    color: white
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.h {
+    padding-bottom: 10px;
+}
+
+.lista-footer {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.fa {
+    background-color: white;
+    color: black;
+}
